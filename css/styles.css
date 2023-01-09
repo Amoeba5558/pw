@@ -34,13 +34,13 @@ body{
     width: 1000px;
     margin: 40px auto;
     padding: 10px 40px;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     display: flex;
 }
 .Middle-Container-1, .Middle-Container-2{
     padding: 20px;
     margin: 0px auto;
-    border: 5px solid turquoise;
+    /* border: 5px solid turquoise; */
     display: inline-block;
 }
 .Middle-Container-1-1{
@@ -48,7 +48,7 @@ body{
     width: 375px;
     height: 497px;
     padding: 55px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     text-align: center;
 }
 .Profile-Photo{
@@ -77,7 +77,7 @@ body{
     height: 53px;
     padding: 10px;
     text-align: center;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     border-top: 0px;
 }
 li{
@@ -88,7 +88,7 @@ li{
     width: 375px;
     height: 550px;
     padding: 20px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 .heading1{
     margin: 0px;
@@ -134,14 +134,14 @@ button{
     }
     .Middle-Container{
         width: fit-content;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: grid;
         padding: 0;
     }
     .Middle-Container-1, .Middle-Container-2{
         padding: 10px;
         margin: 0px auto;
-        border: 5px solid turquoise;
+        /* border: 5px solid turquoise; */
     }
     .Middle-Container-2{
         background-color: rgba(255, 250, 240, 0.856);
@@ -154,7 +154,7 @@ button{
     background-color: whitesmoke;
     text-align: center;
     padding: 20px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-family: 'Merienda One', cursive;
     font-size: 21px;
 }
@@ -168,6 +168,7 @@ button{
     top: 4px;
 }
 /* End of Part-03 */
+
 
 /* RESUME PAGE */
 
