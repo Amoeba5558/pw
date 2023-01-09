@@ -126,6 +126,10 @@ button{
     .largeScreen{
         display: none;
     }
+    .Name{
+        font-family: 'Merienda One', cursive;
+        font-size: 16px;
+    }
     .Middle-Container{
         width: fit-content;
         border: 2px solid red;
