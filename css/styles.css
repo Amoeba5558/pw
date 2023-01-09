@@ -126,9 +126,6 @@ button{
     .largeScreen{
         display: none;
     }
-    body{
-        width: fit-content;
-    }
     .Middle-Container{
         width: fit-content;
         border: 2px solid red;
