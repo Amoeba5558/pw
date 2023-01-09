@@ -128,12 +128,13 @@ button{
     }
     .Name{
         font-family: 'Merienda One', cursive;
-        font-size: 16px;
+        font-size: 18px;
     }
     .Middle-Container{
         width: fit-content;
         border: 2px solid red;
         display: grid;
+        padding: 0;
     }
     .Middle-Container-1, .Middle-Container-2{
         padding: 15px;
