@@ -15,7 +15,7 @@ a{
 }
 /* NavBar CSS */
 
-
+ /* Part-02 */
 body{
     background: linear-gradient(
         to right,
@@ -27,6 +27,9 @@ body{
 }
 
 /* Middle container common css for largeScreen and smallScreen */
+.hp-img{
+    object-fit: contain;
+}
 .Middle-Container{
     width: 1000px;
     margin: 40px auto;
@@ -113,14 +116,13 @@ button{
     align-items: center;
     text-align: center;
 }
-/*Middle container common css for lscreen and sscreen*/
+/*End of Middle container common css for lscreen and sscreen*/
 /* Media Query for largeScreen */
 @media screen and (width > 1018px) {
     .smallScreen{
         display: none;
     }
 }
-
 /* Media Query for smallScreen */
 @media screen and (width < 1018px) {
     .largeScreen{
@@ -144,9 +146,8 @@ button{
     .Middle-Container-2{
         background-color: rgba(255, 250, 240, 0.856);
     }
-
 }
-
+/* End of Part-02 */
 
 /* Part-03 */
 .Bottom-Container{
@@ -157,17 +158,16 @@ button{
     font-family: 'Merienda One', cursive;
     font-size: 21px;
 }
-
 .footer{
     text-align: center;
 }
-
 .copyright{
     height: 4px;
     width: 4px;
     position: relative;
     top: 4px;
 }
+/* End of Part-03 */
 
 /* RESUME PAGE */
 
