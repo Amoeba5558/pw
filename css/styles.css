@@ -127,6 +127,7 @@ button{
         display: none;
     }
     .Middle-Container{
+        width: fit-content;
         border: 2px solid red;
         display: grid;
     }
