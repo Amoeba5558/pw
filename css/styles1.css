@@ -1,0 +1,343 @@
+/* ABOUT ME | PORTFOLIO WEBSITE */
+
+/* NavBar CSS */
+/* Blue sqaure in the about page */
+.dot{
+    margin-top: 7px;
+}
+a{
+    padding: 10px;
+    margin: 15px 5px;
+}
+.Name{
+    font-family: 'Merienda One', cursive;
+    font-size: 21px;
+}
+/* NavBar CSS */
+
+
+body{
+    background: linear-gradient(
+        to right,
+        #FFDCA9 0%,
+        #FFDCA9 40%,
+        white 40%,
+        white 100%
+      );
+}
+
+/* Middle container common css for lscreen and sscreen */
+.Middle-Container{
+    width: 1000px;
+    margin: 100px 275px;
+    padding: 10px 40px;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+.Middle-Container-1, .Middle-Container-2{
+    padding: 20px;
+    /* border: 5px solid turquoise; */
+    display: inline-block;
+}
+.Middle-Container-1{
+    margin-left: 50px;
+}
+.Middle-Container-1-1{
+    background-color: #FAAB78;
+    width: 375px;
+    height: 497px;
+    padding: 55px;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+.Profile-Photo{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.C-1-1_Name{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merienda One', cursive;
+    font-size: 21px;
+}
+.line{
+    position: relative;
+    left: 108px;
+    border: 1px solid #0002A1;
+    width: 50px;
+    margin: 20px 0px;
+}
+.title{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.Middle-Container-1-2{
+    background-color: whitesmoke;
+    width: 375px;
+    height: 53px;
+    padding: 12px;
+    text-align: center;
+    /* border: 5px solid black; */
+    border-top: 0px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.Middle-Container-2-1{
+    width: 375px;
+    height: 550px;
+    padding: 20px;
+    /* border: 5px solid black; */
+}
+.heading1{
+    margin: 0px;
+    padding: 5px 0px;
+    font-size: 68px;
+    font-family: 'Merriweather', serif; 
+}
+.heading2{
+    margin: 0px;
+    font-family: 'Merriweather', serif; 
+    font-size: 21px;
+}
+.about_P{
+    padding: 5px 0px;
+    margin: 0px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Merriweather', serif;
+}
+/*Middle container common css for lscreen and sscreen*/
+/* Middle container for lscreen */
+.Middle-Container{
+    width: 1000px;
+    margin: 100px 275px;
+    padding: 10px 40px;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+.Middle-Container-1, .Middle-Container-2{
+    padding: 20px;
+    /* border: 5px solid turquoise; */
+    display: inline-block;
+}
+.Middle-Container-1{
+    margin-left: 50px;
+}
+.Middle-Container-1-1{
+    background-color: #FAAB78;
+    width: 375px;
+    height: 497px;
+    padding: 55px;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+.Profile-Photo{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.C-1-1_Name{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merienda One', cursive;
+    font-size: 21px;
+}
+.line{
+    position: relative;
+    left: 108px;
+    border: 1px solid #0002A1;
+    width: 50px;
+    margin: 20px 0px;
+}
+.title{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.Middle-Container-1-2{
+    background-color: whitesmoke;
+    width: 375px;
+    height: 53px;
+    padding: 12px;
+    text-align: center;
+    /* border: 5px solid black; */
+    border-top: 0px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.Middle-Container-2-1{
+    width: 375px;
+    height: 550px;
+    padding: 20px;
+    /* border: 5px solid black; */
+}
+.heading1{
+    margin: 0px;
+    padding: 5px 0px;
+    font-size: 68px;
+    font-family: 'Merriweather', serif; 
+}
+.heading2{
+    margin: 0px;
+    font-family: 'Merriweather', serif; 
+    font-size: 21px;
+}
+button{
+    height: 35px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about_P{
+    padding: 5px 0px;
+    margin: 0px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Merriweather', serif;
+}
+/* Media Query for Large Screen */
+@media screen and (width >= 1293px) {
+    .smallScreen{
+        display: none;
+    }
+}
+/* Middle container for llargescreen */
+/* Middle container for smallscreen */
+.Middle-Container{
+    width: 1000px;
+    margin: 100px 275px;
+    padding: 10px 40px;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+.Middle-Container-1, .Middle-Container-2{
+    padding: 20px;
+    /* border: 5px solid turquoise; */
+    display: inline-block;
+}
+.Middle-Container-1{
+    margin-left: 50px;
+}
+.Middle-Container-1-1{
+    background-color: #FAAB78;
+    width: 375px;
+    height: 497px;
+    padding: 55px;
+    /* border: 5px solid black; */
+    text-align: center;
+}
+.Profile-Photo{
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.C-1-1_Name{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Merienda One', cursive;
+    font-size: 21px;
+}
+.line{
+    position: relative;
+    left: 108px;
+    border: 1px solid #0002A1;
+    width: 50px;
+    margin: 20px 0px;
+}
+.title{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+.Middle-Container-1-2{
+    background-color: whitesmoke;
+    width: 375px;
+    height: 53px;
+    padding: 12px;
+    text-align: center;
+    /* border: 5px solid black; */
+    border-top: 0px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.Middle-Container-2-1{
+    width: 375px;
+    height: 550px;
+    padding: 20px;
+    /* border: 5px solid black; */
+}
+.heading1{
+    margin: 0px;
+    padding: 5px 0px;
+    font-size: 68px;
+    font-family: 'Merriweather', serif; 
+}
+.heading2{
+    margin: 0px;
+    font-family: 'Merriweather', serif; 
+    font-size: 21px;
+}
+.about_P{
+    padding: 5px 0px;
+    margin: 0px;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Merriweather', serif;
+}
+button{
+    height: 35px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Middle container for sscreen */
+
+button{
+    height: 35px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Bottom-Container{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    /* border: 2px solid black; */
+    font-family: 'Merienda One', cursive;
+    font-size: 21px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.copyright{
+    height: 4px;
+    width: 4px;
+    position: relative;
+    top: 4px;
+}
+
+/* RESUME PAGE */
+
+
+/* PROJECT PAGE */
+
+/* CONTACT PAGE */
+
+
+/* For a responsive two column layout */
+@media screen and (max-width: 1200px) {
+    .column {
+        width: 100%;
+        }
+  }
